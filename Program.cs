@@ -53,12 +53,9 @@ namespace Treehouse.FitnessFrog
                 Console.WriteLine("Now you are just showing off!");
               }
               runningTotal += minutes;
-
               // Add minutes exercised to total
               // Display total minutes exercised to the screen
-
               Console.WriteLine("You've exercised " + runningTotal + " minutes");
-
               // Repeat until the user quits
           }
           Console.WriteLine("Goodbye");
